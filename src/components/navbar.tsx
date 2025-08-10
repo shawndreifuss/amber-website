@@ -43,11 +43,12 @@ const NAV_MENU = [
   {
     name: "Resources",
     children: [
-      { name: "For professionals", href: "/resources/professionals" },
-      { name: "For patients/general public", href: "/resources/patients" },
+      // TODO: Add these routes when pages exist
+      { name: "For professionals", href: "#" },
+      { name: "For patients/general public", href: "#" },
       {
         name: "For prospective and current GC students",
-        href: "/resources/students",
+        href: "#",
       },
     ],
   },
