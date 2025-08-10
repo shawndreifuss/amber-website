@@ -146,12 +146,12 @@ export function Navbar() {
         </div>
         <IconButton
           variant="text"
-          color={isScrolling ? "gray" : "white"}
+          color={isSolid ? "gray" : "white"}
           onClick={handleOpen}
           className="ml-auto inline-block lg:hidden"
         >
           {open ? (
-            <XMarkIcon strokeWidth={2} className="h-6 w-6" />
+            <XMarkIcon strokeWidth={2} className="h-6 w-6 " />
           ) : (
             <Bars3Icon strokeWidth={2} className="h-6 w-6" />
           )}
@@ -185,7 +185,7 @@ export function Navbar() {
           </ul>
           <div className="mt-6 flex items-center gap-4">
             <a href="/contact-us" target="_blank">
-              <Button color="gray">Donate</Button>
+              <Button color="blue">Donate</Button>
             </a>
           </div>
         </div>
