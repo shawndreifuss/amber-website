@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { Button, Typography } from "@material-tailwind/react";
 
-export function Content() {
+export default function MissionPage() {
   return (
     <section className="py-12 px-8">
       <div className="mx-auto max-w-screen-md">
@@ -39,4 +39,3 @@ export function Content() {
   );
 }
 
-export default Content;
